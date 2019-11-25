@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 
 ffdriver = webdriver.Firefox(firefox_binary="C:\\Program Files\\Mozilla Firefox\\firefox.exe",  executable_path='geckodriver.exe')
 ffdriver.get("https://translate.google.co.il/?hl=iw#view=home&op=translate&sl=iw&tl=en")
-ffdriver.find_element_by_id("source").send_keys("איך קוראים לך")
+ffdriver.find_element_by_id("source").send_keys("איך מגיעים לאצטדיון")
 ffdriver.quit()
 
 # 5
